@@ -33,30 +33,30 @@ export function ServiceTabs() {
       description: 'Professional haircut with clippers and scissors, includes neck shave.',
       price: '$35',
       duration: '30 min',
-      image: "/haircut.jpg"
+      image: "/haircut.png"
     }, {
       id: 'haircut-beard',
       title: 'Haircut and Beard',
       description: 'Complete package with haircut and beard trimming and styling.',
       price: '$50',
       duration: '40 min',
-      image: "/haircut_2B_beard.jpg"
+      image: "/haircut__beard.png"
     }, {
       id: 'line-up',
       title: 'Line Up',
       description: 'Clean up your hairline and edges for a fresh look.',
       price: '$10',
       duration: '20 min',
-      image: "/lineup.jpg",
-      isLogo: true
+      image: "/lineup.png",
+      isLogo: false
     }, {
       id: 'relaxation',
       title: 'Relaxation of the Hair',
       description: 'Hair relaxing treatment for smoother, straighter hair.',
       price: '$80',
       duration: '30 min',
-      image: "/Damata_Circle.png",
-      isLogo: true
+      image: "/relaxation_of_hair.png",
+      isLogo: false
     }, {
       id: 'color-hair',
       title: 'Color Hair',
@@ -72,14 +72,14 @@ export function ServiceTabs() {
       description: 'Clean, professional shave with hot towel treatment.',
       price: '$20',
       duration: '20 min',
-      image: "/beard_maintenance.jpg"
+      image: "/Shave.jpg"
     }, {
       id: 'wax-eyebrows',
       title: 'Wax Eyebrows',
       description: 'Eyebrow waxing for a clean, defined shape.',
       price: '$15',
       duration: '30 min',
-      image: "/eyebrow.jpg"
+      image: 'https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'
     }, {
       id: 'eyebrow-razor',
       title: 'Eyebrow Razor',
@@ -145,7 +145,7 @@ export function ServiceTabs() {
             {allServices[activeTab].map(service => <motion.div key={service.id} whileHover={{
             scale: 1.03
           }} className="bg-white rounded-lg overflow-hidden shadow-lg">
-                <div className="h-90 overflow-hidden relative">
+                <div className="h-72 overflow-hidden relative">
                   {service.isLogo ? <div className="w-full h-full flex items-center justify-center bg-gray-100">
                       <img src="/Damata_Circle.png" alt={service.title} className="w-36 h-36 object-contain" onClick={() => {
                   setSelectedImage(service.image);

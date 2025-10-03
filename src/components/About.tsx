@@ -11,7 +11,7 @@ export function About() {
         </div>
         <div className="grid md:grid-cols-2 gap-12">
           <div className="order-1 md:order-1">
-            <img src="/1.png" alt="Damata Barbershop team standing in front of their shop" className="rounded-lg shadow-xl w-full h-auto object-cover" loading="lazy" />
+            <img src="/IMG_6229.jpg" alt="Damata Barbershop team standing in front of their shop" className="rounded-lg shadow-xl w-full h-auto object-cover" loading="lazy" />
           </div>
           <div className="order-2 md:order-2">
             <h3 className="text-2xl font-bold mb-6 text-[#1C191A]">

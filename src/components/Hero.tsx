@@ -4,7 +4,7 @@ export function Hero() {
   return <section id="home" className="relative h-screen w-full bg-[#000000]">
       {/* Background Image */}
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70" style={{
-      backgroundImage: "url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80')"
+      backgroundImage: "url('https://uploadthingy.s3.us-west-1.amazonaws.com/h45GqVHVgbypWyYCqiVhzs/IMG_6267.jpg')"
     }} aria-hidden="true"></div>
       {/* Content */}
       <div className="relative container mx-auto px-4 h-full flex items-center justify-center">

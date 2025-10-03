@@ -3,32 +3,32 @@ import { X } from 'lucide-react';
 export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const images = [{
-    url: "/haircut_gal_2.jpg",
-    alt: 'Stylish modern fade haircut with well-groomed beard at Damata Barbershop'
+    url: "/IMG_6260.jpg",
+    alt: 'Barber at Damata Barbershop giving a client a precision haircut with clippers'
   }, {
-    url: "/haircut_gallery.jpg",
-    alt: 'Clean skin fade with textured top haircut by Damata Barbershop in Somerville'
+    url: "/IMG_6232.jpg",
+    alt: 'Barber at Damata Barbershop providing a haircut service with professional technique'
   }, {
-    url: "/beard.jpg",
-    alt: 'Bald head with perfectly shaped and trimmed beard by Damata Barbershop barbers'
+    url: "/IMG_6243.jpg",
+    alt: "Stylist at Damata Barbershop blow-drying a client's hair during a styling session"
   }, {
-    url: "/haircut2.jpg",
-    alt: 'Professional taper fade haircut with clean neckline at Damata Barbershop'
+    url: "/IMG_6253.jpg",
+    alt: 'Professional barber at Damata Barbershop creating a precise fade haircut'
   }, {
-    url: '/kids_cut.jpg',
-    alt: 'Barber giving a child a haircut in a fun red car chair at Damata Barbershop in Somerville'
+    url: "/hair__beard.png",
+    alt: 'Client with a well-groomed beard and stylish haircut at Damata Barbershop'
   }, {
-    url: '/kids_area.jpg',
-    alt: 'Damata Barbershop barber sitting by the kids area with colorful floor mats and car-shaped chair'
+    url: "/Screen_Shot_2025-09-28_at_7.23.09_PM.png",
+    alt: 'Professional fade haircut with clean lines at Damata Barbershop'
   }, {
-    url: "/fade.jpg",
-    alt: 'Perfect fade haircut with clean line up and beard trim at Damata Barbershop Somerville'
+    url: "/Screen_Shot_2025-09-28_at_7.23.28_PM.png",
+    alt: 'Clean fade haircut with styled top at Damata Barbershop'
   }, {
-    url: "/haircut__beard.jpg",
-    alt: 'Man with stylish haircut and well-groomed beard by Damata Barbershop in Somerville MA'
+    url: "/Screen_Shot_2025-09-28_at_7.23.18_PM.png",
+    alt: 'Profile view of a precision haircut and beard trim at Damata Barbershop'
   }, {
-    url: "/haircut.webp",
-    alt: 'Sharp profile view of modern high fade haircut with textured top at Damata Barbershop'
+    url: "/Screen_Shot_2025-09-28_at_7.23.23_PM.png",
+    alt: 'Modern haircut with clean fade at Damata Barbershop'
   }];
   return <section id="gallery" className="py-20 bg-white">
       <div className="container mx-auto px-4">
