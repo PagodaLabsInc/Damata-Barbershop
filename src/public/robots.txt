@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://talentbarbershop2019.com/sitemap.xml
