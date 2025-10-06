@@ -9,7 +9,7 @@ interface SEOProps {
 export function SEO({
   title = 'Damata Barbershop | Professional Barbers in Somerville, MA',
   description = 'Damata Barbershop offers professional haircuts, hot towel shaves, and beard trims in Somerville, MA. Kid-friendly barbershop with special chairs for children. Book your appointment today for classic cuts and modern styles by skilled barbers.',
-  canonicalUrl = 'https://damatababershop.com',
+  canonicalUrl = 'https://damatabarbers.com/',
   ogImage = "/fade.jpg"
 }: SEOProps) {
   return <Helmet>
