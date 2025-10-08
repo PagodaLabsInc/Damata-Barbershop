@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://damatabarbers.com/sitemap.xml
+Sitemap: https://damatabarbers.com/sitemap_index.xml

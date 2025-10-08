@@ -1,0 +1,10 @@
+# XML files should be served with proper content-type
+/sitemap.xml
+  Content-Type: application/xml
+  Cache-Control: public, max-age=3600
+
+# Robots.txt
+/robots.txt
+  Content-Type: text/plain
+  Cache-Control: public, max-age=3600
+
