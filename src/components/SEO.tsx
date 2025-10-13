@@ -23,8 +23,11 @@ export function SEO({
       <meta name="revisit-after" content="7 days" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       {/* Favicon */}
-      <link rel="icon" href="/Damata_Circle.png" type="image/png" />
-      <link rel="apple-touch-icon" href="/Damata_Circle.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/Damata_Circle.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/Damata_Circle.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/Damata_Circle.png" />
+      <link rel="shortcut icon" href="/Damata_Circle.png" />
+      <link rel="manifest" href="/site.webmanifest" />
       {/* Canonical URL */}
       <link rel="canonical" href={canonicalUrl} />
       {/* Open Graph / Facebook */}
